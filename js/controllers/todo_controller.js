@@ -6,9 +6,7 @@ Todos.TodoController = Ember.ObjectController.extend({
       todo.save();
     }
   },
-
-  isEditing: false,
-
+  
   isCompleted: function(key, value){
     var model = this.get('model');
 
